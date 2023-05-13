@@ -1,1 +1,1 @@
-Market Place 
+Multi Vendor Market Place 
