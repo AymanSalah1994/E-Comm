@@ -1,0 +1,48 @@
+.main-navbar {
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.main-navbar .top-navbar {
+    background-image: linear-gradient(15deg, #E14D2A 0%, #FD841F 50%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.main-navbar .top-navbar .brand-name {
+    color: #fff;
+}
+.main-navbar .top-navbar .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.main-navbar .top-navbar .dropdown-menu {
+    padding: 0px 0px;
+    border-radius: 0px;
+}
+.main-navbar .top-navbar .dropdown-menu .dropdown-item {
+    padding: 8px 16px;
+    border-bottom: 1px solid rgba(187, 44, 0, 0.926);
+    font-size: 14px;
+}
+.main-navbar .top-navbar .dropdown-menu .dropdown-item i {
+    width: 20px;
+    text-align: center;
+    color: #cc3405;
+    font-size: 14px;
+}
+.main-navbar .navbar {
+    padding: 0px;
+    background-color: rgb(250, 92, 1);
+}
+.main-navbar .navbar .nav-item .nav-link {
+    padding: 8px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-navbar .top-navbar .nav-link {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+}
